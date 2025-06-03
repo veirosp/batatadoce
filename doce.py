@@ -11,7 +11,7 @@ st.image("https://ofuxico.com.br/wp-content/uploads/2023/05/barata-MET-GALA.jpg"
     output_format="auto",
     use_container_width=False)
   
-st.text_input = (label == "Digite aqui quantas saias de filó a barata tem", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible", icon=None)
+st.text_input = (label == "Digite aqui quantas saias de filó a barata tem", value=None, max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible", icon=None)
 
 
 if st.text_input == "1":
